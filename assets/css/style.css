@@ -1,3 +1,24 @@
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Proxima Nova', Arial;
+    color: black;
+}
+
+/* headings and logo */
+
+h1 {
+    font-family: 'Helvetica', 'Sans Serif';
+    text-transform: uppercase;
+    color: black;
+}
+
+#logo {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
 }

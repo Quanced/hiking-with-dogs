@@ -4,8 +4,6 @@ Hiking with dogs is a website designed to gather people who would like to find a
 
 ## Features
 
-### Existing Features
-
 Navigation Bar
 Existing on all pages in the same form to be able to navigate between the links to the Upcoming Events, Gallery and Sign Up form. 
 
