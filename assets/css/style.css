@@ -13,7 +13,6 @@ body {
 
 h1 {
     font-family: 'Helvetica', 'Sans Serif';
-    text-transform: uppercase;
     color: #6B8C83;
 }
 
@@ -62,3 +61,5 @@ h1 {
     width: 100%;
     overflow: hidden;
 }
+
+
