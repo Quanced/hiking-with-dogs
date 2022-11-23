@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Proxima Nova', Arial;
-    color: black;
+    color: #455569;
 }
 
 /* headings and logo */
@@ -14,11 +14,36 @@ body {
 h1 {
     font-family: 'Helvetica', 'Sans Serif';
     text-transform: uppercase;
-    color: black;
+    color: #6B8C83;
 }
 
 #logo {
     float: left;
     margin-left: 10px;
-    margin-top: 10px;
+    font-size: 300%;
+}
+
+#navigation, #logo {
+    line-height: 90px;
+}
+
+#navigation {
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+#navigation li {
+    float: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation a:hover {
+    color: #817191;
+    border-bottom: 1px solid #817191;
 }
