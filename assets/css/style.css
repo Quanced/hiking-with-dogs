@@ -71,5 +71,15 @@ h1 {
     font-family: Helvetica, sans-serif;
     font-size: 200%;
     font-style: italic;
+
+    background-color: #455569;
+    padding: 30px;
+    opacity: 0.4;
 }
 
+#info-text {
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+    font-family: 'Proxima Nova', sans-serif;
+}
