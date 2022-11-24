@@ -13,12 +13,12 @@ body {
 
 h1 {
     font-family: 'Helvetica', 'Sans Serif';
-    color: #6B8C83;
+    color: #354B45;
 }
 
 #logo {
     float: left;
-    margin-left: 10px;
+    margin-left: 50px;
     font-size: 300%;
 }
 
@@ -34,7 +34,7 @@ h1 {
 #navigation li {
     float: right;
     list-style-type: none;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 #navigation a {
@@ -47,13 +47,14 @@ h1 {
     border-bottom: 1px solid #817191;
 }
 
-/* header image */
+/* header image and text */
 
 #header-image {
     height: 1500px;
     width: 100%;
     background: url(../images/hiking-with-dogs-header.jpg) no-repeat center center;
     background-size: cover;
+    opacity: 0.5;
 }
 
 #header-free {
@@ -62,4 +63,13 @@ h1 {
     overflow: hidden;
 }
 
+.overlay h2 {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    color: #354B45;
+    font-family: Helvetica, sans-serif;
+    font-size: 200%;
+    font-style: italic;
+}
 
