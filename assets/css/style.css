@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Proxima Nova', Arial;
+    font-family: Proxima Nova, Arial;
     color: #455569;
 }
 
@@ -47,9 +47,9 @@ h1 {
     border-bottom: 1px solid #817191;
 }
 
-/* header image and text */
+/* home image and text */
 
-#header-image {
+#home-image {
     height: 1500px;
     width: 100%;
     background: url(../images/hiking-with-dogs-header.jpg) no-repeat center center;
@@ -57,29 +57,35 @@ h1 {
     opacity: 0.5;
 }
 
-#header-free {
+#home-free {
     height: 1500px;
     width: 100%;
     overflow: hidden;
 }
 
-.overlay h2 {
+.overlay {
     position: absolute;
     top: 33%;
     left: 5%;
     color: #354B45;
     font-family: Helvetica, sans-serif;
-    font-size: 200%;
+    font-size: 120%;
     font-style: italic;
 
+    
+}
+
+.transbox {
     background-color: #455569;
+    height: 200px;
+    width: 300px;
     padding: 30px;
-    opacity: 0.4;
+    z-index: 2;
 }
 
 #info-text {
     position: absolute;
     bottom: 8%;
     left: 10%;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: Proxima Nova, sans-serif;
 }

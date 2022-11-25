@@ -19,14 +19,14 @@ This section is meant to explain in greater detail what the site is about and wh
 
 (Picture)
 
-Footer
-This section includes links to social media sites relevant to this website. The links will open in a new tab so the user wouldn't have to navigate back to the original web page. 
-
-(Picture)
-
 Upcoming Hikes
 Information about upcoming hikes with meetup time, meetup location, lenghts of hike and approximated duration for the hike for the visitor to read and to find an event suitable for their desires. 
 This section will be updated with new hikes accordingly to keep the user up to date. 
+
+(Picture)
+
+Footer
+This section includes links to social media sites relevant to this website. The links will open in a new tab so the user wouldn't have to navigate back to the original web page. 
 
 (Picture)
 
