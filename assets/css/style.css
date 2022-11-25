@@ -9,6 +9,7 @@ body {
     color: #455569;
 }
 
+
 /* headings and logo */
 
 h1 {
@@ -47,15 +48,7 @@ h1 {
     border-bottom: 1px solid #817191;
 }
 
-/* home image and text */
-
-#home-image {
-    height: 1500px;
-    width: 100%;
-    background: url(../images/hiking-with-dogs-header.jpg) no-repeat center center;
-    background-size: cover;
-    opacity: 0.5;
-}
+/* home page text */
 
 #home-free {
     height: 1500px;
@@ -63,7 +56,16 @@ h1 {
     overflow: hidden;
 }
 
-.overlay {
+.background {
+    background-image: url('../images/hiking-with-dogs-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140vh;
+    opacity: 0.5;
+}
+
+
+.welcome-text {
     position: absolute;
     top: 33%;
     left: 5%;
@@ -71,16 +73,6 @@ h1 {
     font-family: Helvetica, sans-serif;
     font-size: 120%;
     font-style: italic;
-
-    
-}
-
-.transbox {
-    background-color: #455569;
-    height: 200px;
-    width: 300px;
-    padding: 30px;
-    z-index: 2;
 }
 
 #info-text {
