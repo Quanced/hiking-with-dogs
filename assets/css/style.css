@@ -48,26 +48,22 @@ h1 {
     border-bottom: 1px solid #817191;
 }
 
-/* home page text */
-
-#home-free {
-    height: 1500px;
-    width: 100%;
-    overflow: hidden;
-}
+/* home page image and text */
 
 .background {
     background-image: url('../images/hiking-with-dogs-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     height: 140vh;
     opacity: 0.5;
+    z-index: -1;
+    top: 80px;
 }
-
 
 .welcome-text {
     position: absolute;
-    top: 33%;
+    top: 25%;
     left: 5%;
     color: #354B45;
     font-family: Helvetica, sans-serif;
@@ -75,9 +71,16 @@ h1 {
     font-style: italic;
 }
 
-#info-text {
-    position: absolute;
-    bottom: 8%;
-    left: 10%;
-    font-family: Proxima Nova, sans-serif;
+.transbox div {
+    background-color: rgba(159, 194, 184, 0.4);
+    padding: 2%;
+    border-radius: 25px;
 }
+
+/* Meet up info */
+
+#meet-ups div {
+    color: #354B45;
+    float: left;
+}
+
