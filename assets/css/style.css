@@ -81,6 +81,12 @@ h1 {
 
 #meet-ups div {
     color: #354B45;
+    background-color: rgba(159, 194, 184, 0.4);
+    border-radius: 25px;
     float: left;
+    width: 20%;
+    height: 100px;
+    margin: 0 0 80px 10px;
+    padding: 20px;
 }
 
