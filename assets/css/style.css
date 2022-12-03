@@ -79,16 +79,19 @@ h1 {
 
 /* Meet up info */
 
+#meet-ups {
+    display: flex;
+    position: relative;
+    bottom: 200px;
+}
+
 #meet-ups div {
     color: #354B45;
     background-color: rgba(159, 194, 184, 0.4);
     border-radius: 20px;
-    float: left;
     width: 20%;
-    height: 100px;
     margin: 0 0 80px 10px;
     padding: 20px;
-    
 }
 
 /* footer */
@@ -96,6 +99,16 @@ h1 {
 footer > ul {
     text-align: center;
     list-style-type: none;
+    height: 50px;
+    font-size: 200%;
+
+}
+
+.socials > li {
+    margin: 1%;
+    padding: 5%;
+    color: #354B45;
+    display: inline;
 }
 
 /* gallery */
@@ -105,6 +118,7 @@ footer > ul {
     flex-direction: row;
     align-items: center;
     padding-top: 5%;
+    
 }
 
 .box .gallery {
