@@ -55,10 +55,10 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 120vh;
+    height: 100vh;
     opacity: 0.5;
     z-index: -1;
-    top: 80px;
+    top: 100px;
 }
 
 .welcome-text {
@@ -74,7 +74,7 @@ h1 {
 .transbox div {
     background-color: rgba(159, 194, 184, 0.4);
     padding: 2%;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 /* Meet up info */
@@ -88,9 +88,9 @@ h1 {
 #meet-ups div {
     color: #354B45;
     background-color: rgba(159, 194, 184, 0.4);
-    border-radius: 20px;
+    border-radius: 15px;
     width: 20%;
-    margin: 0 0 80px 10px;
+    margin: 0 0 10px 10px;
     padding: 20px;
 }
 
@@ -100,13 +100,12 @@ footer ul {
     text-align: center;
     list-style-type: none;
     font-size: 200%;
-    padding-top: 5%;
 }
 
 .socials li {
-    padding: 5%;
+    padding: 0 5% 2% 5%;
     display: inline;
-    color: red;
+    
 }
 
 /* gallery */
