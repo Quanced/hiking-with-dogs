@@ -55,7 +55,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 140vh;
+    height: 120vh;
     opacity: 0.5;
     z-index: -1;
     top: 80px;
@@ -96,19 +96,16 @@ h1 {
 
 /* footer */
 
-footer > ul {
+footer ul {
     text-align: center;
     list-style-type: none;
-    height: 50px;
     font-size: 200%;
-
 }
 
-.socials > li {
-    margin: 1%;
+.socials li {
     padding: 5%;
-    color: #354B45;
     display: inline;
+    color: red;
 }
 
 /* gallery */
