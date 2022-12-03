@@ -100,6 +100,7 @@ footer ul {
     text-align: center;
     list-style-type: none;
     font-size: 200%;
+    padding-top: 5%;
 }
 
 .socials li {
@@ -113,14 +114,19 @@ footer ul {
 .box {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding-top: 5%;
-    
+    width: 100%;
 }
 
 .box .gallery {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
+    padding: 10px;
+}
 
+.box .gallery img {
+    width: 100%;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    
 }
