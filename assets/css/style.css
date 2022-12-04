@@ -65,7 +65,7 @@ h1 {
     position: absolute;
     top: 20%;
     left: 5%;
-    color: #354B45;
+    color: #092822;
     font-family: Helvetica, sans-serif;
     font-size: 120%;
     font-style: italic;
@@ -73,7 +73,7 @@ h1 {
 }
 
 .transbox div {
-    background-color: rgba(159, 194, 184, 0.6);
+    background-color: rgba(239, 252, 248, 0.6);
     padding: 2%;
     border-radius: 15px;
 }
@@ -87,11 +87,11 @@ h1 {
 }
 
 #meet-ups div {
-    color: #354B45;
-    background-color: rgba(159, 194, 184, 0.6);
+    color: #092822;
+    background-color: rgba(239, 252, 248, 0.6);
     border-radius: 15px;
-    width: 20%;
-    margin: 0 0 10px 10px;
+    width: 100%;
+    margin: 0 10px 10px 10px;
     padding: 20px;
     line-height: 1.5;
 }
@@ -107,7 +107,7 @@ footer ul {
 .socials li {
     padding: 0 5% 2% 5%;
     display: inline;
-    
+    color: red;
 }
 
 /* gallery */
@@ -146,39 +146,49 @@ footer ul {
 }
 
 .signup-box {
-    background-color: rgba(159, 194, 184, 0.6);
+    background-color: rgba(53, 75, 69, 0.4);
     max-width: 600px;
     padding: 30px;
     border-radius: 15px;
+    position: absolute;
+    top: 25%;
+    left: 3%;
 }
 
 .signup > h2 {
-    color: #354B45;
+    color: #F3EADA;
     font-size: 200%;
     padding-bottom: 20px;
 }
 
 .signup {
     font-weight: bold;
+    color: #F3EADA;
 }
 
 .text-input {
     background: #F3EADA;
-    color: #354B45;
+    color: #F3EADA;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #354B45;
     border-radius: 5px;
     padding: 3px;
+    font-weight: bold;
 }
 
 #button {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 4px;
     padding: 15px 30px 15px 30px;
     text-align: center;
     background-color: #354B45;
     color: #F3EADA;
     display: block;
+    font-weight: bold;
+}
+
+#button:hover {
+    background-color: #98B0A9;
+    color: #F3EADA;
 }
