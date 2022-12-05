@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Proxima Nova, Arial;
+    font-family: Proxima Nova, sans-serif;
     color: #455569;
 }
 
@@ -54,6 +54,8 @@ h1 {
     background-image: url('../images/hiking-with-dogs-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     position: relative;
     height: 1000px;
     opacity: 0.5;
@@ -74,8 +76,9 @@ h1 {
 
 .transbox div {
     background-color: rgba(239, 252, 248, 0.6);
-    padding: 2%;
+    padding: 2% ;
     border-radius: 15px;
+    margin-right: 5%;
 }
 
 /* meet up info */
@@ -83,7 +86,7 @@ h1 {
 #meet-ups {
     display: flex;
     position: relative;
-    bottom: 100px;
+    bottom: 140px;
 }
 
 #meet-ups div {
@@ -105,7 +108,7 @@ footer ul {
 }
 
 .socials li {
-    padding: 0 5% 2% 5%;
+    padding: 0 5% 1% 5%;
     display: inline;
     color: red;
 }
@@ -138,6 +141,8 @@ footer ul {
     background-image: url('../images/patrick-hendry-pj0qKgoKm0g-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     position: relative;
     height: 1000px;
     opacity: 0.5;
@@ -192,3 +197,21 @@ footer ul {
     background-color: #98B0A9;
     color: #F3EADA;
 }
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+    #logo {
+        text-align: center;
+        float: none;
+        text-decoration: none;
+        }
+
+    #meet-ups {
+        width: 90%;
+        height: 1000px;
+        flex-direction: column;
+        bottom: 550px;
+    }
+}
+
