@@ -204,7 +204,6 @@ footer ul {
     #logo {
         text-align: center;
         float: none;
-        text-decoration: none;
         }
 
     #meet-ups {
@@ -213,5 +212,14 @@ footer ul {
         flex-direction: column;
         bottom: 550px;
     }
+
+    .box {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .box .gallery {
+         width: 96%;
+        }
 }
 
