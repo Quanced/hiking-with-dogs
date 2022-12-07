@@ -50,10 +50,6 @@ HTML - No errors were found when passing through the official [W3C validator](ht
 CSS - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 56a5464047f3444f340352fe74d32da4153d90ef
 # Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -66,9 +62,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 The live link can be found here - https://quanced.github.io/hiking-with-dogs/
 
+
 # Credits
-<<<<<<< HEAD
-=======
 
 ### Content
 
@@ -79,27 +74,4 @@ The live link can be found here - https://quanced.github.io/hiking-with-dogs/
 ### Media
 
 • The images on the website were taken from [this open source site](https://unsplash.com/)
->>>>>>> 56a5464047f3444f340352fe74d32da4153d90ef
-
-
-### Content
-
-• Instructions on how to design the gallery page was taken from [this Youtube turorial](https://www.youtube.com/watch?v=Trw_9lisYVY)
-
-• The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-
-### Media
-
-• The images on the website were taken from [this open source site](https://unsplash.com/)
-
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-
-• In the Git Hub repository, navigate to the Settings tab
-
-• From the source section drop-down menu, select the Main Branch
-
-• Once the main branch has been selected, the page will automaticlly refresh with a detailed ribbon display to indicate the successful deployment.
-
-The live link can be found here - https://quanced.github.io/hiking-with-dogs/
 
