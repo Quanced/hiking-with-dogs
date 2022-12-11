@@ -213,20 +213,37 @@ footer ul {
 /* media queries */
 
 @media only screen and (max-width: 768px) {
+    
     #logo {
+        font-size: 40px;
+        margin-left: 0;
         text-align: center;
         float: none;
-        }
+       }
+
+    #navigation, #logo {
+        line-height: 50px;
+    }
 
     header a {
         text-decoration: none;
     }
 
+    .welcome-text h2 {
+        font-size: 22px;
+    }
+
+    .welcome-text {
+        font-size: 16px;
+        top: 30%;
+        
+    }
+
     #meet-ups {
-        width: 90%;
-        height: 700px;
+        width: 80%;
+        top: 80%;
         flex-direction: column;
-        top: 550px;
+        font-size: 14px;
     }
 
     .box {
@@ -235,7 +252,16 @@ footer ul {
     }
     
     .box .gallery {
-         width: 96%;
+         width: 95%;
         }
+
+    .signup-box {
+        top: 40%;
+        width: 70%;
+    }
+
+    .signup > h2 {
+        font-size: 150%;
+    }
 }
 
