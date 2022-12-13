@@ -2,6 +2,8 @@
 
 Hiking with dogs is a website designed to gather people who would like to find a social context at the same time as explore the hiking world with their dog. Its purpose is to inspire and connect people with organiced hikes they can sign up to attend. 
 
+I've chosen neutral and earthy colors to complement the theme of the website with suitable background images to give an even clearer picture of the purpose of the website. I'm keeping all pages clean and neat without unecessary content to make the website more appealing and easy to understand and navigate. 
+
 
 ## Features
 
@@ -29,16 +31,20 @@ This section includes links to social media sites relevant to this website. The 
 
 ### Gallery
 Selected images to show what the hikes can look like.
-It's useful for the user to get a feeling if the hikes may be compatable with their expectations. 
+It's useful for the user to get a feeling if the hikes may be compatable with their expectations. I've been working with this page to make it visually appealing and made sure the resolution on the images look charp to keep the website looking professional.
 
 ![Annotation 2022-12-06 1810010](https://user-images.githubusercontent.com/116362850/205985820-0e030693-ee5e-4326-b760-3f0aa1f4db4b.jpg)
 
 
 ### Sign Up
 This page allow the visitor to sign up for upcoming hikes.
-The user will be asked to submit their full name, dogs name and email address. 
+The user will be asked to submit their full name, email address and what hikes they would like to attend. 
 
 ![Annotation 2022-12-06 1810011](https://user-images.githubusercontent.com/116362850/205985832-2e7926b3-6e49-49fd-b554-e5ebbc8500dd.jpg)
+
+
+## Features Left To Implement
+Create a forum for users to be able to communicate and share their own pictures, experiences and tips with other dedicated hikers.   
 
 
 # Testing
@@ -70,6 +76,8 @@ The live link can be found here - https://quanced.github.io/hiking-with-dogs/
 • Instructions on how to design the gallery page was taken from [this Youtube turorial](https://www.youtube.com/watch?v=Trw_9lisYVY)
 
 • The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+• Instructions on how to design the SignUp form was taken from the Code Institute - Love Running Challenge: SignUp form. I have altered the code to fit my needs. 
 
 ### Media
 

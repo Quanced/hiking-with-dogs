@@ -212,17 +212,7 @@ footer ul {
 
 /* media queries */
 
-@media only screen and (max-width: 1024px) {
 
-    .welcome-text {
-        top: 20%; 
-    }
-
-    #meet-ups {
-        width: 80%;
-        top: 75%;
-    }
-}
 
 @media only screen and (max-width: 768px) {
     
@@ -339,7 +329,7 @@ footer ul {
 
     #meet-ups {
         width: 80%;
-        top: 75%;
+        top: 65%;
     }
 }
 
